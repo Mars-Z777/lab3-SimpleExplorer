@@ -43,9 +43,10 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:paddingBottom="7dp"
+            android:background="#3F51B5"
+            android:orientation="vertical"
             android:paddingTop="7dp"
-            android:orientation="vertical">
+            android:paddingBottom="7dp">
 
             <TextView
                 android:id="@+id/permission_label"
@@ -54,16 +55,16 @@
                 android:ellipsize="end"
                 android:singleLine="true"
                 android:text="@string/LastModified"
+                android:textColor="?android:textColorPrimary"
                 android:textIsSelectable="false"
-                android:textStyle="bold"
-                android:textColor="?android:textColorPrimary" />
+                android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/time_stamp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:paddingTop="5dp"
                 android:ellipsize="end"
+                android:paddingTop="5dp"
                 android:singleLine="true"
                 android:text="@string/minus"
                 android:textIsSelectable="false" />
