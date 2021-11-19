@@ -39,8 +39,8 @@
     <item
         android:id="@+id/actiondetails"
         android:icon="?attr/action_info"
-        app:showAsAction="ifRoom"
-        android:title="@string/details" />
+        android:title="@string/details"
+        app:showAsAction="ifRoom" />
     <item
         android:id="@+id/actionbookmark"
         android:icon="?attr/action_bookmark"

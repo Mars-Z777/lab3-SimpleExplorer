@@ -53,6 +53,11 @@
                 <data android:mimeType="file/*" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".SampleActivity"
+            android:label="@string/sample"
+            android:parentActivityName=".BrowserActivity">
+        </activity>
 
         <provider
             android:name="android.support.v4.content.FileProvider"
